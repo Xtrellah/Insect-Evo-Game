@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bd75nyu6tri81"]
+
+[ext_resource type="PackedScene" uid="uid://bpkitsv4r2uma" path="res://Creature/creature.tscn" id="1_ch8iq"]
+[ext_resource type="Script" path="res://game-manager.gd" id="1_skifh"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_38hed"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_skifh")
+
+[node name="Creature" parent="." instance=ExtResource("1_ch8iq")]
+position = Vector2(136, 119)
+creature_name = "Fire Dragon"
+sprite_texture = SubResource("CanvasTexture_38hed")
