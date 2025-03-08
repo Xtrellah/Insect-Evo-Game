@@ -1,37 +1,32 @@
 {
   "Giant Hornet": {
-	"level": 1,
+	"Type": "Vespidae",
 	"health": 80,
-	"attack_power": 15,
-	"rarity": "Common",
+	"attack": 15,
 	"sprite_texture": "res://Sprites/Giant_Hornet.webp"
   },
   "Mantis": {
-	"level": 1,
+	"Type": "Mantidae",
 	"health": 90,
-	"attack_power": 20,
-	"rarity": "Common",
+	"attack": 20,
 	"sprite_texture": "res://Sprites/Mantis.webp"
   },
   "Orchid Mantis": {
-	"level": 2,
+	"Type": "Mantidae",
 	"health": 100,
-	"attack_power": 25,
-	"rarity": "Uncommon",
+	"attack": 25,
 	"sprite_texture": "res://Sprites/Orchid_Mantis.webp"
   },
   "Scorpion": {
-	"level": 2,
+	"Type": "Scorpionoidea",
 	"health": 110,
-	"attack_power": 30,
-	"rarity": "Rare",
+	"attack": 30,
 	"sprite_texture": "res://Sprites/Scorpion.webp"
   },
   "Tarantula": {
-	"level": 3,
+	"Type": "Theraphosidae",
 	"health": 120,
-	"attack_power": 35,
-	"rarity": "Epic",
+	"attack": 35,
 	"sprite_texture": "res://Sprites/Tarantula.webp"
   }
 }
