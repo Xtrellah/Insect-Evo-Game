@@ -1,0 +1,85 @@
+{
+	"Yellow Jacket": {
+		"level": 5,
+		"order": "Hymenoptera",
+		"max_health": 90,
+		"attack": 30,
+		"defense": 15,
+		"speed": 35,
+		"sprite_url": "res://Creature/Sprites/Yellow-Jacket.png",
+		"moves": [
+			{"name": "Sting", "power": 2, "order": "Hymenoptera"},
+			{"name": "Buzz", "power": 1, "order": "Hymenoptera"},
+			{"name": "Bite", "power": 1, "order": "Hymenoptera"}
+		]
+	},
+	"Vulture Bee": {
+		"level": 5,
+		"order": "Hymenoptera",
+		"max_health": 100,
+		"attack": 40,
+		"defense": 20,
+		"speed": 25,
+		"sprite_url": "res://Creature/Sprites/Vulture-Bee.png",
+		"moves": [
+			{"name": "Sting", "power": 2, "order": "Hymenoptera"},
+			{"name": "Buzz", "power": 1, "order": "Hymenoptera"},
+			{"name": "Carrion Bite", "power": 3, "order": "Hymenoptera"}
+		]
+	},
+	"Mantis": {
+		"level": 5,
+		"order": "Mantodea",
+		"max_health": 110,
+		"attack": 40,
+		"defense": 20,
+		"speed": 30,
+		"sprite_url": "res://Creature/Sprites/Mantis.png",
+		"moves": [
+			{"name": "Raptorial Slash", "power": 3, "order": "Mantodea"},
+			{"name": "Ambush", "power": 2, "order": "Mantodea"},
+			{"name": "Bite", "power": 1, "order": "Mantodea"}
+		]
+	},
+	"Orchid Mantis": {
+		"level": 5,
+		"order": "Mantodea",
+		"max_health": 105,
+		"attack": 35,
+		"defense": 25,
+		"speed": 40,
+		"sprite_url": "res://Creature/Sprites/Orchid-Mantis.png",
+		"moves": [
+			{"name": "Raptorial Slash", "power": 3, "order": "Mantodea"},
+			{"name": "Petal Feint", "power": 2, "order": "Mantodea"},
+			{"name": "Color Camouflage", "power": 1, "order": "Mantodea"}
+		]
+	},
+	"Wolf Spider": {
+		"level": 5,
+		"order": "Araneae",
+		"max_health": 95,
+		"attack": 35,
+		"defense": 20,
+		"speed": 30,
+		"sprite_url": "res://Creature/Sprites/Wolf-Spider.png",
+		"moves": [
+			{"name": "Fang Bite", "power": 3, "order": "Araneae"},
+			{"name": "Web Trap", "power": 1, "order": "Araneae"},
+		]
+	},
+	"Golden Orb Weaver": {
+		"level": 5,
+		"order": "Araneae",
+		"max_health": 80,
+		"attack": 30,
+		"defense": 25,
+		"speed": 25,
+		"sprite_url": "res://Creature/Sprites/Golden-Orb-Weaver.png",
+		"moves": [
+			{"name": "Fang Bite", "power": 3, "order": "Araneae"},
+			{"name": "Silk Bind", "power": 1, "order": "Araneae"},
+			{"name": "Golden Weave", "power": 1, "order": "Araneae"}
+		]
+	}
+}
